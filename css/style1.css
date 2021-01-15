@@ -1,0 +1,150 @@
+* {
+  margin: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+.main_header {
+  background-color: #27ae60;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.main_header h1 {
+  text-align: center;
+  font-size: 5rem;
+  color: #ffffff;
+}
+
+.main_header p {
+  text-align: center;
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.row .column_menu {
+  float: left;
+  width: 20%;
+}
+
+.row .column_menu ul {
+  list-style-type: none;
+}
+
+.row .column_menu ul li {
+  background-color: #ced6e0;
+  padding: 8px 12px;
+  margin-top: .8rem;
+  border-radius: .4rem;
+  cursor: pointer;
+}
+
+.row .column_menu ul li a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #000000;
+  text-align: center;
+}
+
+.row .column_menu li:hover {
+  background-color: #dfe4ea;
+  color: #34495e;
+}
+
+.row .column_main {
+  float: left;
+  width: 60%;
+}
+
+.row .column_main h1 {
+  text-align: left;
+  font-size: 3rem;
+  color: black;
+  margin-top: 8px;
+}
+
+.row .column_main p {
+  text-align: left;
+  font-size: 1.5rem;
+  color: black;
+  line-height: 2.5rem;
+}
+
+.row .column_main a {
+  text-align: left;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.row .column_right {
+  float: left;
+  width: 20%;
+  background-color: #3498db;
+  border-radius: 4px;
+  margin-top: 3rem;
+}
+
+.row .column_right h2 {
+  text-align: left;
+  font-size: 2rem;
+  color: white;
+}
+
+.row .column_right p {
+  text-align: left;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.row::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+footer{
+  margin-top: 10%;
+}
+footer p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #34495e;
+  background-color: #bdc3c7;
+  border-radius: 4px;
+}
+
+@media(max-width: 950px){
+  .row .column_menu{
+    text-align: center;
+    width: 30%;
+  }
+  .row .column_main{
+    width: 70%;
+  }
+  .row .column_main h1{
+    font-size: 2.5rem;
+  }
+  .row .column_right{
+    width: 100%;
+  }
+}
+@media(max-width: 650px){
+  .row .column_menu, .column_main, .column_right{
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
